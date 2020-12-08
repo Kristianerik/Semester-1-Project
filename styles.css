@@ -1,0 +1,33 @@
+@font-face{
+    font-family: 'NotoSans';
+    src: url(/fonts/NotoSans-Regular.ttf);
+    font-family: 'RobotoSlab';
+    src: url(/fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+:root{
+    --light-blue: #5FA0F5;
+    --dark-gray: #777777;
+    --light-gray: #AACBF7;
+}
+
+header {
+    height: 255px;
+}
+
+.logo {
+    display: inline;
+    float: left;
+    height: 100%;
+    width: 10%;
+}
+
+.navigation {
+    font-family: RobotoSlab, Arial, Helvetica, sans-serif;
+    color: var(--dark-gray);
+    font-size: 4%;
+    display: inline;
+    float: left;
+    border-right: 2px;
+    border-color: var(--dark-gray);
+}
