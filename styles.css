@@ -12,7 +12,7 @@
 }
 
 header {
-    height: 255px;
+    height: 150px;
 }
 
 .logo {
@@ -27,7 +27,7 @@ header {
     color: var(--dark-gray);
     font-size: 4%;
     display: inline;
-    float: left;
+    float: right;
     border-right: 2px;
     border-color: var(--dark-gray);
 }
