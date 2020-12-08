@@ -13,7 +13,10 @@
 
 header {
     height: 150px;
-    border: 0% 0% 1% 0%, solid, black;
+    border: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 
 }
 
@@ -30,19 +33,23 @@ header {
 .csmtitle{
     font-family: Robotoslab, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 25%;
+    font-size: xxx-large;
     float: left;
     display: inline;
     position: relative;
-    left: 5%;
+    left: 0%;
+    top: 7%;
 
 }
 .navigation {
     font-family: RobotoSlab, Arial, Helvetica, sans-serif;
     color: var(--dark-gray);
-    font-size: x-large;
+    font-size: large;
+    font-weight: bold;
     display: inline;
     float: right;
     position: relative;
-    top: 38%;
+    top: 43%;
+    margin-right: 4%;
+    
 }
