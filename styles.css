@@ -24,13 +24,11 @@ header {
 }
 
 .logo {
-    display: inline;
-    float: left;
+    display: block;
+    left: 50%;
     height: 80%;
     width: 12%;
     position: relative;
-    top: 10%;
-    
 }
 
 .csmtitle{
@@ -38,10 +36,9 @@ header {
     font-weight: bold;
     font-size: xxx-large;
     float: left;
-    display: inline;
     position: relative;
-    left: 0%;
-    top: 7%;
+    display: block;
+    left: 50%;
 
 }
 .navigation {
@@ -70,25 +67,29 @@ footer{
 
 .footerheader{
     color: var(--light-blue);
+    font-family: RobotoSlab, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 .footercontent{
     color: white;
-
+    font-family: NotoSans, 'Times New Roman', Times, serif;
 }
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 600px){
 
 .logo{
-    display: block;
-    left: 50%;
+    display: inline;
+    float: left;
+    top: 10%;
 }
 
 .csmtitle{
-    display: block;
-    left: 50%;
+    display: inline;
+    left: 0%;
+    top: 7%;
 }
-
 }
