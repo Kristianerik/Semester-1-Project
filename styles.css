@@ -79,7 +79,7 @@ footer{
 
 
 
-@media only screen and (min-width: 600px){
+@media screen and (min-width: 600px){
 
 .logo{
     display: inline;
@@ -93,4 +93,5 @@ footer{
     left: 0%;
     top: 7%;
 }
+
 }
