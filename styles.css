@@ -10,6 +10,9 @@
     --dark-gray: #777777;
     --light-gray: #AACBF7;
 }
+body{
+    margin: 0%;
+}
 
 header {
     height: 150px;
@@ -52,4 +55,40 @@ header {
     top: 43%;
     margin-right: 4%;
     
+}
+
+footer{
+    background-color: #454545;
+    height: 350px;
+
+}
+
+.footercontainer{
+    width: 50%;
+    display: inline;
+}
+
+.footerheader{
+    color: var(--light-blue);
+}
+
+.footercontent{
+    color: white;
+
+}
+
+
+
+@media only screen and (min-width: 600px){
+
+.logo{
+    display: block;
+    left: 50%;
+}
+
+.csmtitle{
+    display: block;
+    left: 50%;
+}
+
 }
