@@ -65,10 +65,19 @@ footer{
 
 }
 
+.footercontainer{
+    background-color: var(--light-blue);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 50%;
+    left: 4%;
+}
 
 
 .footerheader{
-    color: var(--light-blue);
+    
     font-family: RobotoSlab, Arial, Helvetica, sans-serif;
     font-size: x-large;
     font-weight: bold;
