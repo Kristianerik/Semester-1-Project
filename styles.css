@@ -60,13 +60,11 @@ header {
 footer{
     background-color: #454545;
     height: 350px;
+    text-align: center;
 
 }
 
-.footercontainer{
-    width: 50%;
-    display: inline;
-}
+
 
 .footerheader{
     color: var(--light-blue);
