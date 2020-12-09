@@ -68,6 +68,8 @@ main{
     font-size: xx-large;
     font-weight: bold;
     border-bottom: solid;
+    border-color: black;
+    text-align: center;
 }
 
 .slidercontainer{
@@ -90,6 +92,7 @@ main{
     float: left;
     margin: 0;
     padding: 0;
+    width: 15%;
 }
 
 footer{
