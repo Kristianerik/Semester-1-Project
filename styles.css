@@ -58,6 +58,39 @@ header {
 }
 
 
+main{
+    height: fit-content;
+}
+
+.mainheader{
+    color: var(--light-blue);
+    font-family: RobotoSlab, Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    border-bottom: solid;
+}
+
+.slidercontainer{
+    width: 70%;
+    height: 50%;
+}
+
+.photocontainer{
+    width: 5120px;
+    height: 600px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+
+.sliderimage{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
 
 footer{
     background-color: black;
