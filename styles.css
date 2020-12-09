@@ -15,7 +15,7 @@ body{
 }
 
 header {
-    height: 150px;
+    height: 250px;
     border: solid;
     border-top: none;
     border-left: none;
@@ -25,9 +25,9 @@ header {
 
 .logo {
     display: block;
-    left: 50%;
-    height: 80%;
-    width: 12%;
+    left: 36%;
+    height: 45%;
+    width: 27%;
     position: relative;
 }
 
@@ -38,7 +38,8 @@ header {
     float: left;
     position: relative;
     display: block;
-    left: 50%;
+    left: 40%;
+    margin-top: -2%;
 
 }
 .navigation {
@@ -47,11 +48,29 @@ header {
     font-size: large;
     font-weight: bold;
     display: inline;
-    float: right;
-    position: relative;
-    top: 43%;
-    margin-right: 4%;
-    
+    position: absolute;
+    top: 18%;
+}
+
+.one {
+    left: 4%;
+}
+
+.two{
+    left: 20%;
+}
+
+.three{
+    left: 34%;
+}
+
+.four{
+    left: 52%;
+}
+
+.five{
+    left: 79%;
+    text-align: center;
 }
 
 footer{
@@ -86,12 +105,44 @@ footer{
     float: left;
     top: 10%;
     left: 0%;
+    height: 80%;
+    width: 12%;
 }
 
 .csmtitle{
     display: inline;
     left: 0%;
     top: 7%;
+    font-size: xxx-large;
+    margin-top: none;
+}
+
+header{
+    height: 150px;
+}
+
+.navigation{
+    float: right;
+    position: relative;
+    margin-right: 4%;
+    top: 7%;
+}
+
+.one{
+    left: 0%;
+}
+
+.two{
+    left: 0%;
+}
+
+.three{
+    left: 0%;
+}
+
+.four{
+    left: 0%;
 }
 
 }
+
