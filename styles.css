@@ -85,6 +85,11 @@ footer{
     border-color: white;
     font-family: RobotoSlab, Arial, Helvetica, sans-serif;
     font-size: large;
+    color: white;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin-top: 10%;
 }
 
 .footerbutton:hover {
@@ -124,6 +129,23 @@ header{
     right: 1%;
 }
 
+footer{
+    padding: 2%;
+}
+
+
+.footerheader{
+    font-size: xx-large;
+}
+
+.footercontent{
+    font-size: large;
+}
+
+.footerbutton{
+    width: 30%;
+    left: 35%;
+}
 
 }
 
