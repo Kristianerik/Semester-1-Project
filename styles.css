@@ -50,8 +50,8 @@ header {
     display: inline-flex;
     flex-direction: row;
     position: relative;
-    top: 30%;
-    right: 12%;
+    top: 26%;
+    right: 10%;
     margin-right: 5%;
 }
 
@@ -145,6 +145,7 @@ footer{
 .footerbutton{
     width: 30%;
     left: 35%;
+    margin-top: 2%;
 }
 
 }
