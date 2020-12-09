@@ -15,19 +15,19 @@ body{
 }
 
 header {
-    height: 250px;
+    height: 325px;
     border: solid;
     border-top: none;
     border-left: none;
     border-right: none;
-
+    text-align: center;
 }
 
 .logo {
     display: block;
-    left: 36%;
-    height: 45%;
-    width: 27%;
+    left: 28%;
+    height: 40%;
+    width: 45%;
     position: relative;
 }
 
@@ -38,8 +38,8 @@ header {
     float: left;
     position: relative;
     display: block;
-    left: 40%;
-    margin-top: -2%;
+    left: 37%;
+    margin-top: 0%;
 
 }
 .navigation {
@@ -47,31 +47,15 @@ header {
     color: var(--dark-gray);
     font-size: large;
     font-weight: bold;
-    display: inline;
-    position: absolute;
-    top: 18%;
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+    top: 30%;
+    right: 12%;
+    margin-right: 5%;
 }
 
-.one {
-    left: 4%;
-}
 
-.two{
-    left: 20%;
-}
-
-.three{
-    left: 34%;
-}
-
-.four{
-    left: 52%;
-}
-
-.five{
-    left: 79%;
-    text-align: center;
-}
 
 footer{
     background-color: #454545;
@@ -112,8 +96,8 @@ footer{
 .csmtitle{
     display: inline;
     left: 0%;
-    top: 7%;
-    font-size: xxx-large;
+    top: 36%;
+    font-size: xx-large;
     margin-top: none;
 }
 
@@ -125,24 +109,10 @@ header{
     float: right;
     position: relative;
     margin-right: 4%;
-    top: 7%;
+    top: 43%;
+    right: 1%;
 }
 
-.one{
-    left: 0%;
-}
-
-.two{
-    left: 0%;
-}
-
-.three{
-    left: 0%;
-}
-
-.four{
-    left: 0%;
-}
 
 }
 
