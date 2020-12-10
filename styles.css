@@ -198,12 +198,28 @@ main{
     margin-bottom: 5%;
 }
 
+
+.contentcontainerb{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contentblockb{
+    background-color: var(--light-blue);
+    color: white;
+    margin-top: 5%;
+    padding: 5%;
+    width: 20%;
+}
+
+
 footer{
     background-color: black;
     height: fit-content;
     text-align: center;
     padding: 5%;
-
 }
 
 .footercontainer{
