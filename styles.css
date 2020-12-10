@@ -139,6 +139,10 @@ main{
     color: white;
     text-align: center;
     width: 50%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
 }
 
 .contentheader{
@@ -158,8 +162,21 @@ main{
     font-family: RobotoSlab, Arial, Helvetica, sans-serif;
     font-size: x-large;
     border: solid;
-    border-color: white;
+    border-color: black;
+    background-color: black;
     padding: 2%;
+    margin-top: 5%;
+}
+
+.noticeblock{
+    background-color: var(--dark-gray);
+    color: white;
+    font-family: NotoSans, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    width: 70%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer{
@@ -249,6 +266,9 @@ header{
     left: 40%;
 }
 
+.contentblock{
+    margin-top: 1%;
+}
 footer{
     padding: 2%;
 }
