@@ -217,6 +217,10 @@ header{
     right: 1%;
 }
 
+.sliderbutton{
+    left: 40%;
+}
+
 footer{
     padding: 2%;
 }
