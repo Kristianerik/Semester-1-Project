@@ -57,6 +57,9 @@ header {
     padding: 1%;
 }
 
+.navigation:hover{
+    color: var(--dark-gray);
+}
 
 main{
     height: fit-content;
@@ -168,6 +171,11 @@ main{
     margin-top: 5%;
 }
 
+.contentbutton:hover{
+    color: white;
+    background-color: var(--dark-gray);
+}
+
 .noticeblock{
     background-color: var(--dark-gray);
     color: white;
@@ -185,8 +193,9 @@ main{
 
 .contentpicture{
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    left: 24%;
+    margin-bottom: 5%;
 }
 
 footer{
@@ -232,12 +241,11 @@ footer{
     position: relative;
     left: 23%;
     padding: 3%;
-    
 }
 
 .footerbutton:hover {
     background-color: var(--light-gray);
-    color: var(--dark-gray);
+    color: white;
 }
 
 
