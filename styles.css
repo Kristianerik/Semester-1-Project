@@ -116,19 +116,21 @@ main{
     width: 30px;
     border-radius: 5px;
     border-color: var(--dark-gray);
+    background-color: var(--dark-gray);
     position: relative;
     left: 32%;
+    margin: 2%;
 }
 
-#sliderimage1:target ~ .imagecontainer{
+#sliderimage1:target ~ .photocontainer{
     left: 0%;
 }
 
-#sliderimage2:target ~ .imagecontainer{
+#sliderimage2:target ~ .photocontainer{
     left: -100%;
 }
 
-#sliderimage3:target ~ .imagecontainer{
+#sliderimage3:target ~ .photocontainer{
     left: -200%;
 }
 
