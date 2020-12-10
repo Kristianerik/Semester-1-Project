@@ -173,8 +173,18 @@ main{
     color: white;
     font-family: NotoSans, 'Times New Roman', Times, serif;
     font-size: x-large;
-    width: 70%;
+    text-align: center;
+    width: 80%;
     padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.contentpicture{
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
