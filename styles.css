@@ -134,6 +134,34 @@ main{
     left: -200%;
 }
 
+.contentblock{
+    background-color: var(--light-blue);
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.contentheader{
+    font-family: RobotoSlab, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    border-bottom: solid;
+    border-color: white;
+    font-weight: bold;
+}
+
+.contenttext{
+    font-family: NotoSans, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.contentbutton{
+    font-family: RobotoSlab, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    border: solid;
+    border-color: white;
+    padding: 2%;
+}
+
 footer{
     background-color: black;
     height: fit-content;
