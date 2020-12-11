@@ -205,7 +205,6 @@ main{
     display: flex;
     flex-direction: column;
     text-align: center;
-    flex-wrap: wrap;
 }
 
 .contentblockb{
@@ -334,6 +333,7 @@ footer{
 .one{
     position: relative;
     left: 0%;
+    flex-wrap: wrap;
 }
 
 
