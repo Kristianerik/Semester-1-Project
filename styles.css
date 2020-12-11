@@ -333,8 +333,9 @@ footer{
 
 .one{
     position: relative;
-    left: 13%;
+    left: 0%;
 }
+
 
 .contentblockb{
     margin-bottom: 5%;
@@ -343,6 +344,10 @@ footer{
     width: 20%;
     margin-right: 12%;
     left: 6%;
+}
+
+.two{
+    left: 18%;
 }
 
 }
