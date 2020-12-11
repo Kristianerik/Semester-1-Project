@@ -205,7 +205,7 @@ main{
     display: flex;
     flex-direction: column;
     text-align: center;
-    flex-wrap: warp;
+    flex-wrap: wrap;
 }
 
 .contentblockb{
